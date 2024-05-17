@@ -1,0 +1,1285 @@
+/* main section */
+
+.mainSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.1rem;
+  flex-wrap: wrap;
+  padding: 10px;
+  background: url("../../public/dlicomAppImg.png") no-repeat;
+  background-size: 66%;
+  background-position: 125% 10%;
+  height: 91dvh;
+}
+
+.mainSection .textContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 10rem 0 5% 10%;
+  width: 38%;
+}
+.mainSection .textContainer .mainSectionTitle {
+  color: #24caca;
+  font-size: 45px;
+  font-weight: 700;
+}
+.mainSection .textContainer .mainSectionPara {
+  color: #a8a8a8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ImgsContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.mainSection .dlicomAppImgcontainer {
+  /* height: 640px; */
+  flex: 1.7;
+}
+.mainSection .dlicomAppImgcontainer .dlicomAppImg {
+  width: 100%;
+  height: 100%;
+}
+
+/* End main section */
+
+/* Video Section */
+.videoSection {
+  background: url("../../public/videoSection.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 180%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+}
+.videoSection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.92);
+}
+.videoSection .videoContainer {
+  width: 75%;
+  margin-top: 2rem;
+  z-index: 3;
+  border: 25px solid rgba(0, 128, 128, 0.3);
+  border-radius: 25px;
+}
+.iframe {
+  width: 100%;
+  height: 540px;
+  border: none;
+}
+.videoSection .videoPara {
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: capitalize;
+  z-index: 3;
+  margin-top: 1rem;
+}
+/* End Video Section */
+
+/* White Paper Section */
+
+.whitePaperSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.whitePaperSection .whitePaperContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-direction: column;
+  width: 75%;
+  margin: 9rem auto;
+  background: url("../../public/blocks-glass.png") no-repeat,
+    linear-gradient(60deg, #1790a6 0%, rgba(0, 0, 0, 0) 70%);
+  background-size: 130%, cover;
+  background-position: -110% 12%, center;
+  color: white;
+  padding: 29px 20px;
+  border-radius: 15px;
+}
+.whitePaperSection .whitePaperContainer .whitePaperTitle {
+  line-height: 53px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.whitePaperSection .whitePaperContainer .whitePaperpara {
+  font-size: 15px;
+  font-weight: 300;
+}
+.whitePaperSection .whitePaperContainer .whitePaperBtn {
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 7px 20px;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.whitePaperSection .whitePaperContainer .whitePaperBtn:hover {
+  background-color: #01b9b9;
+}
+
+/* End White Paper Section */
+
+/* Dlicom Features Section */
+
+.DlicomFeaturesSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+  gap: 2rem;
+}
+.DlicomFeaturesSection .container {
+  width: 75%;
+}
+.DlicomFeaturesSection .titleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.DlicomFeaturesSection .titleContainer .DlicomFeaturesTitle {
+  color: #87d1ff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.DlicomFeaturesSection .titleContainer .DlicomFeaturespara {
+  font-size: 23px;
+  color: #c4c4c4;
+}
+.DlicomFeaturesSection .DlicomFeaturesCardsConatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+}
+.DlicomFeaturesSection .DlicomFeaturesCardsConatiner .easyAppCard {
+  background: url("../../public/iPhone.png") no-repeat,
+    linear-gradient(0deg, #1790a6 0%, rgba(0, 0, 0, 0) 110%);
+  background-size: 75%, cover;
+  background-position: center 150px, center;
+  height: 480px;
+  border: 1px solid #362c4af8;
+  border-radius: 15px;
+  width: 355px;
+}
+.DlicomFeaturesSection
+  .DlicomFeaturesCardsConatiner
+  .easyAppCard
+  .easyAppCardTitle {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  margin: 2.5rem auto 0;
+}
+.DlicomFeaturesSection .columncards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 480px;
+  width: 340px;
+}
+.DlicomFeaturesSection .columncards .columncardsTop {
+  padding: 2px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  border: 1px solid #362c4af8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ImgsContainer {
+  width: 100%;
+  height: 100%;
+  margin: 1rem auto 0;
+  align-self: center;
+}
+.DlicomFeaturesSection .columncards .columncardsTop h2 {
+  font-size: 16px;
+}
+.DlicomFeaturesSection .columncards .columncardsTop p {
+  font-size: 12px;
+  color: #cecece;
+  margin-bottom: 5px;
+}
+.DlicomFeaturesSection .columncards .columncardsbottom {
+  width: 100%;
+  border-radius: 15px;
+  height: 49%;
+  border: 1px solid #362c4af8;
+}
+.DlicomFeaturesSection .columncards .columncardsbottom h2 {
+  font-size: 15px;
+  margin-left: 1rem;
+  margin-top: 11rem;
+}
+.DlicomFeaturesSection .columncards .columncardsbottom p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+.DlicomFeaturesSection .columncards .columncardsbottom.bottomThree {
+  text-align: center;
+}
+/* End Dlicom Features Section */
+
+/* Future Section */
+
+.futureSection {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.futureSection .container {
+  width: 87%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.futureSection .futureSectionText {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  background: url("../../public/glow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+.futureSection .futureSectionText h3 {
+  color: #12ffff;
+  margin-top: 3.5rem;
+}
+.futureSection .futureSectionText .firstPara {
+  font-size: 44px;
+  font-weight: 600;
+  width: 70%;
+  margin-top: 0.5rem;
+}
+.futureSection .futureSectionText .secondPara {
+  font-size: 15px;
+  width: 69%;
+
+  margin: 0.5rem auto 2.5rem;
+  color: #ffffff;
+}
+.futureSection .container .contentContainer {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.futureSection .container .contentContainer .imgContainer {
+  border-radius: 15px;
+  width: 370px;
+}
+.futureSection .container .contentContainer .imgContainer .futureImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.futureSection .container .contentContainer .textContent {
+  flex-wrap: wrap;
+  flex: 1.4;
+
+  gap: 3.6rem;
+  justify-content: center;
+  align-items: center;
+}
+.futureSection .container .contentContainer .textContent .titleAndPara {
+  width: 295px;
+}
+.futureSection .container .contentContainer .textContent .titleAndPara h2 {
+  font-size: 20px;
+}
+.futureSection .container .contentContainer .textContent .titleAndPara p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.5rem;
+}
+
+/* End Future Section */
+
+/* solve Section */
+
+.solveSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background: url("../../public/glow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.solveSection .container {
+  width: 87%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.solveSection .container .solveSectionText {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.solveSection .container .solveSectionText h3 {
+  color: #12ffff;
+  margin-top: 0.7rem;
+}
+.solveSection .container .solveSectionText .firstPara {
+  font-size: 44px;
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+
+.solveSection .container .cardsContainer {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  margin: 4rem auto;
+}
+.solveSection .container .cardsContainer .solveCard {
+  width: 480px;
+  height: 240px;
+  align-items: center;
+  justify-content: center;
+  background: #222a308c;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 1rem;
+}
+.solveSection .container .cardsContainer .solveCard .cardIcon {
+  font-size: 200px;
+  color: #72f2ee;
+}
+.solveSection .container .cardsContainer .solveCard h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.solveSection .container .cardsContainer .solveCard p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c8c8c8;
+  line-height: 29px;
+}
+
+/* End solve Section */
+
+/* Growth Section */
+
+.growthSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background: url("../../public/glow.png");
+  background-repeat: no-repeat;
+  background-position: 70% 90%;
+  background-size: 90%;
+}
+.growthSection .container {
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8rem auto;
+  flex-wrap: wrap;
+  border-radius: 13px;
+  border: 1px solid #72f2ee;
+  background: linear-gradient(180deg, #4a6e7055 10%, #00040a);
+  padding: 40px 20px;
+  gap: 1.5rem;
+}
+.growthSection .container .imgContainer {
+  width: 500px;
+}
+.growthSection .container .imgContainer .growthImg {
+  width: 100%;
+  height: 100%;
+}
+.growthSection .container .cardsContainer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.growthSection .container .cardsContainer .growthCard {
+  width: 470px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: space-between;
+  background: #254746;
+  font-size: 13px;
+}
+.growthSection .container .cardsContainer .growthCard button {
+  padding: 6.5px 15px;
+  background: #72f2ee;
+  color: black;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  width: 107px;
+}
+
+/* End Growth Section */
+.dliAllocationSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dliAllocationSection .container {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem auto;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.dliAllocationSection .container .textContainer {
+  align-self: flex-start;
+}
+.dliAllocationSection .container .textContainer h3 {
+  color: #72f2ee;
+}
+.dliAllocationSection .container .textContainer h1 {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.dliAllocationSection .container .dliAllocationCard {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 13px;
+  border: 1px solid rgba(114, 114, 114, 0.762);
+  padding: 20px;
+  gap: 2rem;
+}
+.dliAllocationSection .container .dliAllocationCard .imgContainer {
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(114, 114, 114, 0.762);
+}
+.dliAllocationSection
+  .container
+  .dliAllocationCard
+  .imgContainer
+  .dliAllocationImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.dliAllocationSection .container .dliAllocationCard .cardTextContainer {
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.dliAllocationSection .container .dliAllocationCard .numberAndTitle {
+  width: 290px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.dliAllocationSection .container .dliAllocationCard .numberAndTitle h1 {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(90.02deg, #72f2ee, #016b5e);
+  background-clip: text;
+  color: transparent;
+}
+
+.dliAllocationSection .container .dliAllocationCard .numberAndTitle p {
+  color: #cbcbcb;
+  font-size: 14px;
+}
+
+/*  */
+/* stack and earn section */
+
+.stackAndEarnSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stackAndEarnSection .container {
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem auto;
+  flex-direction: column;
+  background: url("../../public/a1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 18px;
+  position: relative;
+}
+.stackAndEarnSection .container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.501);
+}
+.stackAndEarnSection .container h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  z-index: 1;
+}
+.stackAndEarnSection .container p {
+  width: 60%;
+  margin-bottom: 4rem;
+  font-size: 20px;
+  color: #e6e6e6;
+  z-index: 1;
+}
+
+/* End stack and earn section */
+
+/* solutions Section */
+
+.solutionsSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.solutionsSection h3 {
+  color: #12ffff;
+  margin-top: 0.7rem;
+}
+.solutionsSection .solutionsTitle {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.solutionsSection .container {
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.solutionsSection h3 {
+  color: #12ffff;
+  margin-top: 0.7rem;
+}
+.solutionsSection .container .leftCardsContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+.solutionsSection .container .rightCardsContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  flex: 1;
+}
+.solutionsSection .container .bigCard {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #55515b;
+  border-radius: 15px;
+  padding: 25px;
+}
+.solutionsSection .container .bigCard p {
+  margin-bottom: 2.2rem;
+}
+
+.solutionsSection .container .bigCard .imgContainer {
+  width: 90%;
+  height: 250px;
+}
+.solutionsSection .container .imgContainer {
+  width: 280px;
+  height: 210px;
+}
+.solutionsSection .container .imgContainer .solutionsImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.solutionsSection .container .normalCard {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border: 1px solid #55515b;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.solutionsSection .container .normalCard .textContainer {
+  display: flex;
+
+  gap: 1rem;
+  width: 65%;
+  flex-direction: column;
+}
+.solutionsSection .container .normalCard .textContainer h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.solutionsSection .container .normalCard .textContainer p {
+  font-size: 14px;
+}
+
+/* End solutions Section */
+
+/* (FAQs) Section*/
+
+.fAQsSection {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fAQsSection .fAQsSectionTitle {
+  font-size: 38px;
+  margin-top: 4rem;
+  margin-left: 0.8rem;
+}
+.fAQsSection .container {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 2.5rem auto;
+}
+.fAQsSection .container .imgContainer {
+  border-radius: 15px;
+  width: 370px;
+}
+.fAQsSection .container .imgContainer .futureImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.fAQsSection .container .faqcontainer {
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  width: 610px;
+}
+.fAQsSection .container .faqcontainer .question {
+  background: rgb(40, 40, 40);
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+.fAQsSection .container .faqcontainer .question .flexQuestion {
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+}
+.fAQsSection .container .faqcontainer .question .answer {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* End (FAQs) Section*/
+
+/* Explorer Section */
+.ExplorerSection {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ExplorerSection .container {
+  width: 75%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 7.5rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.27);
+  border-radius: 15px;
+  padding: 15px;
+}
+.ExplorerSection .container .imgContainer {
+  border-radius: 15px;
+  width: 450px;
+}
+.ExplorerSection .container .imgContainer .ExplorerImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.ExplorerSection .container .titleAndButton {
+  gap: 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+.ExplorerSection .container .titleAndButton h1 {
+  font-size: 45px;
+  font-weight: 400;
+  width: 80%;
+}
+.ExplorerSection .container .titleAndButton button {
+  font-size: 19px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  background: linear-gradient(0deg, #72f2ee, #00453d);
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.ExplorerSection .container .titleAndButton button:hover {
+  background: linear-gradient(0deg, #00aaa4, #002b26);
+}
+/* End Explorer Section */
+
+/* Partners Section */
+
+.partnersSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.partnersSection .partnersTitle {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  width: 350px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  border: 1px solid rgba(245, 245, 245, 0.33);
+}
+.partnersSection .container {
+  width: 95%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.partnersSection .container .contentContainer {
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+.partnersSection .container .leftCardsContainer {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 2.6rem;
+  flex: 1;
+}
+
+.partnersSection .container .rightCardsContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  flex: 0.9;
+}
+.partnersSection .container .rightCardsContainer .rightTitle {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.partnersSection .container .rightCardsContainer .rightCards {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+.partnersSection .container .rightCardsContainer .rightCards .normalCard {
+  flex-direction: column;
+  width: 280px;
+  gap: 8rem;
+}
+.partnersSection
+  .container
+  .rightCardsContainer
+  .rightCards
+  .normalCard
+  .textContainer {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: column;
+}
+.partnersSection .container .imgContainer {
+  width: 200px;
+  height: 200px;
+}
+.partnersSection .container .imgContainer .solutionsImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.partnersSection .container .normalCard {
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border: 1px solid #55515b;
+  border-radius: 15px;
+  padding: 15px;
+}
+.partnersSection .container .leftCardsContainer .normalCard .textContainer {
+  display: flex;
+  gap: 1rem;
+  width: 65%;
+}
+.partnersSection .container .normalCard .textContainer h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.partnersSection .container .normalCard .textContainer p {
+  font-size: 14px;
+}
+
+/* End Partners Section */
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .whitePaperSection .whitePaperContainer {
+    width: 84%;
+  }
+  .DlicomFeaturesSection .container {
+    width: 85%;
+  }
+  .futureSection .container {
+    width: 90%;
+  }
+  .futureSection .container .contentContainer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .solveSection .container {
+    width: 99%;
+  }
+  .growthSection .container {
+    width: 96%;
+  }
+  .dliAllocationSection .container {
+    width: 98%;
+    gap: 1rem;
+  }
+  .dliAllocationSection .container .dliAllocationCard .numberAndTitle {
+    width: 270px;
+  }
+  .stackAndEarnSection .container {
+    width: 85%;
+  }
+  .solutionsSection .container {
+    width: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .videoSection .videoContainer {
+    width: 90%;
+  }
+  .videoSection .videoContainer .iframe {
+    height: 450px;
+  }
+  .whitePaperSection .whitePaperContainer {
+    width: 92%;
+  }
+  .DlicomFeaturesSection .container {
+    width: 95%;
+  }
+  .futureSection .container {
+    width: 93%;
+  }
+  .futureSection .container .contentContainer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .futureSection .container .contentContainer .textContent {
+    gap: 2rem;
+  }
+  .solveSection .container {
+    width: 97%;
+  }
+  .dliAllocationSection .container .dliAllocationCard {
+    flex-direction: column;
+  }
+  .dliAllocationSection .container .textContainer {
+    align-self: center;
+    justify-self: center;
+  }
+  .dliAllocationSection .container .dliAllocationCard .numberAndTitle {
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .stackAndEarnSection .container {
+    width: 90%;
+  }
+  .stackAndEarnSection .container h1 {
+    font-size: 45px;
+  }
+  .stackAndEarnSection .container p {
+    width: 80%;
+  }
+  .solutionsSection .container {
+    width: 96%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .videoSection .videoContainer {
+    width: 95%;
+  }
+  .videoSection .videoContainer .iframe {
+    height: 400px;
+  }
+  .whitePaperSection .whitePaperContainer {
+    width: 97%;
+  }
+  .DlicomFeaturesSection .container {
+    width: 80%;
+  }
+  .futureSection .container {
+    width: 98.5%;
+  }
+  .futureSection .container .contentContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .futureSection .container .contentContainer .textContent {
+    gap: 2.6rem;
+  }
+  .solveSection .container .solveSectionText .firstPara {
+    font-size: 38px;
+  }
+  .solveSection .container {
+    width: 97%;
+  }
+  .dliAllocationSection .container {
+    width: 94%;
+  }
+  .dliAllocationSection .container .dliAllocationCard {
+    flex-direction: column;
+  }
+  .dliAllocationSection .container .dliAllocationCard .numberAndTitle {
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .stackAndEarnSection .container {
+    width: 90%;
+  }
+  .stackAndEarnSection .container h1 {
+    font-size: 40px;
+  }
+  .stackAndEarnSection .container p {
+    width: 85%;
+    font-size: 16px;
+  }
+  .solutionsSection .container {
+    width: 92%;
+  }
+  .ExplorerSection .container {
+    width: 90%;
+    padding: 10px;
+  }
+  .ExplorerSection .container .titleAndButton h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .videoSection .videoContainer {
+    width: 99%;
+  }
+  .videoSection .videoContainer .iframe {
+    height: 350px;
+  }
+  .videoSection .videoPara {
+    font-size: 12px;
+  }
+  .whitePaperSection .whitePaperContainer {
+    width: 98%;
+  }
+  .whitePaperSection .whitePaperContainer .whitePaperTitle {
+    font-size: 30px;
+  }
+  .whitePaperSection .whitePaperContainer .whitePaperpara {
+    font-size: 14px;
+  }
+
+  .DlicomFeaturesSection .container {
+    width: 85%;
+  }
+  .DlicomFeaturesSection .DlicomFeaturesCardsConatiner .easyAppCard {
+    background-position: center 170px, center;
+  }
+  .futureSection .container {
+    width: 98%;
+  }
+  .futureSection .container .futureSectionText .firstPara {
+    font-size: 28px;
+  }
+  .futureSection .container .futureSectionText .secondPara {
+    width: 100%;
+  }
+  .futureSection .container {
+    width: 96%;
+  }
+  .futureSection .container .contentContainer {
+    gap: 2rem;
+  }
+  .futureSection .container .contentContainer .textContent {
+    gap: 1.4rem;
+  }
+  .futureSection .container .contentContainer .textContent .titleAndPara h2 {
+    font-size: 16px;
+  }
+  .futureSection .container .contentContainer .textContent .titleAndPara p {
+    font-size: 13px;
+  }
+  .futureSection .container .contentContainer .imgContainer {
+    width: 350px;
+  }
+  .solveSection .container .solveSectionText .firstPara {
+    font-size: 30px;
+  }
+  .solveSection .container {
+    width: 96%;
+  }
+  .solveSection .container .cardsContainer .solveCard {
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .solveSection .container .cardsContainer .solveCard .cardIcon {
+    font-size: 150px;
+  }
+  .solveSection .container .cardsContainer .solveCard h2 {
+    font-size: 17px;
+  }
+  .solveSection .container .cardsContainer .solveCard p {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .growthSection .container {
+    width: 96%;
+    margin: 6rem auto;
+    padding: 10px;
+  }
+  .growthSection .container .imgContainer {
+    width: 100%;
+  }
+  .growthSection .container .cardsContainer {
+    width: 100%;
+  }
+  .growthSection .container .cardsContainer .growthCard {
+    width: 100%;
+    font-size: 14px;
+  }
+  .dliAllocationSection .container {
+    width: 97%;
+  }
+  .dliAllocationSection .container .dliAllocationCard {
+    flex-direction: column;
+  }
+
+  .dliAllocationSection .container .dliAllocationCard .numberAndTitle {
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .dliAllocationSection .container .dliAllocationCard .numberAndTitle h1 {
+    font-size: 50px;
+  }
+  .stackAndEarnSection .container {
+    width: 95%;
+  }
+  .stackAndEarnSection .container h1 {
+    font-size: 35px;
+  }
+  .stackAndEarnSection .container p {
+    width: 90%;
+    font-size: 15px;
+  }
+  .solutionsSection .container {
+    width: 97%;
+  }
+  .solutionsSection .container .leftCardsContainer {
+    width: 100%;
+  }
+  .solutionsSection .container .rightCardsContainer {
+    width: 100%;
+  }
+  .solutionsSection .container .normalCard {
+    padding: 10px;
+    gap: 0.7rem;
+  }
+  .solutionsSection .container .normalCard .textContainer h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .solutionsSection .container .normalCard .textContainer p {
+    font-size: 12px;
+  }
+  .fAQsSection .fAQsSectionTitle {
+    font-size: 24px;
+  }
+  .fAQsSection .container {
+    width: 97%;
+  }
+  .fAQsSection .container .faqcontainer .question .flexQuestion {
+    font-size: 12px;
+  }
+  .fAQsSection .container .faqcontainer .question .answer {
+    font-size: 12px;
+  }
+  .ExplorerSection .container {
+    width: 95%;
+    padding: 10px;
+  }
+  .ExplorerSection .container .titleAndButton h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .partnersSection .partnersTitle {
+    width: 100%;
+  }
+  .partnersSection .container {
+    width: 95%;
+  }
+  .partnersSection .container .normalCard {
+    width: 100%;
+    gap: 0.8rem;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .partnersSection .container .leftCardsContainer .normalCard {
+    gap: 1.5rem;
+  }
+  .partnersSection .container .leftCardsContainer .normalCard .textContainer {
+    width: 100%;
+  }
+  .partnersSection .container .rightCardsContainer {
+    flex: 1;
+    gap: 0.8rem;
+  }
+  .partnersSection .container .rightCardsContainer .rightCards .normalCard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .solutionsSection .container .normalCard {
+    flex-wrap: wrap;
+  }
+  .solutionsSection .container .normalCard .textContainer {
+    width: 100%;
+  }
+  .fAQsSection .fAQsSectionTitle {
+    font-size: 22px;
+  }
+  .fAQsSection .container {
+    width: 98%;
+  }
+  .partnersSection .container .leftCardsContainer .normalCard {
+    flex-wrap: wrap;
+  }
+}
