@@ -1,3 +1,17 @@
+Developed a comprehensive and user-friendly web application for DLICom using Next.js. This project involved creating dynamic, responsive web pages, implementing secure user authentication, and optimizing performance for fast load times. Gained expertise in JavaScript, CSS, and server-side rendering to enhance the application's speed and SEO performance.
+
+Technologies Used:
+
+Next.js
+JavaScript
+CSS
+
+Live Version: https://shlenpower.vercel.app/
+
+Screenshots:
+![Dlicom-Next.js-App](https://raw.githubusercontent.com/mohamed-sayed-elmahdy/Dlicom/master/public/screen.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
