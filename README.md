@@ -6,7 +6,7 @@ Next.js
 JavaScript
 CSS
 
-Live Version: https://dlicom.vercel.app/
+Live Version: https://dlicom.io/
 
 Screenshots:
 ![Dlicom-Next.js-App](https://raw.githubusercontent.com/mohamed-sayed-elmahdy/Dlicom/master/public/screen.png)
